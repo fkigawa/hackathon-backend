@@ -16,6 +16,7 @@ TOKEN_SECRET="<TOKEN>"
 3. Run the following commands:
 
 ```
+cd hackathon-backend
 rm -rf ./node_modules 
 npm install --save 
 npm run dev
