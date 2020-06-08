@@ -15,6 +15,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
+//require dotenv to reference .env file
+require('dotenv').config()
+
 //requires modularized files
 require('./models/Users')
 const passport = require('./routes/api/auth/passport');
