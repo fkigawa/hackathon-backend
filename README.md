@@ -1,13 +1,19 @@
-To get this repo up and running, complete the following instructions:
+To get this backend framework up and running, complete the following instructions:
 
-1. Create .env file in root directory. Initialize two variables using the following form:
+1. Git clone this repository:
 
 ```
-MONGODB_URI="" 
-TOKEN_SECRET=""
+git clone https://github.com/fkigawa/hackathon-backend.git
 ```
 
-2. Run the following commands:
+2. Create .env file in root directory. Initialize two variables in the .env file:
+
+```
+MONGODB_URI="<URI>" 
+TOKEN_SECRET="<TOKEN>"
+```
+
+3. Run the following commands:
 
 ```
 rm -rf ./node_modules 
